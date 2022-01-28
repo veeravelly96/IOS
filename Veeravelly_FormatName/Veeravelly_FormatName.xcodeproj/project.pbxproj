@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		581228F027A486D1003A5D37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581228EF27A486D1003A5D37 /* AppDelegate.swift */; };
+		581228F227A486D1003A5D37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581228F127A486D1003A5D37 /* SceneDelegate.swift */; };
+		581228F427A486D1003A5D37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581228F327A486D1003A5D37 /* ViewController.swift */; };
+		581228F727A486D1003A5D37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 581228F527A486D1003A5D37 /* Main.storyboard */; };
+		581228F927A486D4003A5D37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 581228F827A486D4003A5D37 /* Assets.xcassets */; };
+		581228FC27A486D4003A5D37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 581228FA27A486D4003A5D37 /* LaunchScreen.storyboard */; };
+		5812290727A486D4003A5D37 /* Veeravelly_FormatNameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5812290627A486D4003A5D37 /* Veeravelly_FormatNameTests.swift */; };
+		5812291127A486D4003A5D37 /* Veeravelly_FormatNameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5812291027A486D4003A5D37 /* Veeravelly_FormatNameUITests.swift */; };
+		5812291327A486D4003A5D37 /* Veeravelly_FormatNameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5812291227A486D4003A5D37 /* Veeravelly_FormatNameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5812290327A486D4003A5D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 581228E427A486D1003A5D37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 581228EB27A486D1003A5D37;
+			remoteInfo = Veeravelly_FormatName;
+		};
+		5812290D27A486D4003A5D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 581228E427A486D1003A5D37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 581228EB27A486D1003A5D37;
+			remoteInfo = Veeravelly_FormatName;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		581228EC27A486D1003A5D37 /* Veeravelly_FormatName.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Veeravelly_FormatName.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		581228EF27A486D1003A5D37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		581228F127A486D1003A5D37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		581228F327A486D1003A5D37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		581228F627A486D1003A5D37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		581228F827A486D4003A5D37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		581228FB27A486D4003A5D37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		581228FD27A486D4003A5D37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5812290227A486D4003A5D37 /* Veeravelly_FormatNameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Veeravelly_FormatNameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5812290627A486D4003A5D37 /* Veeravelly_FormatNameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veeravelly_FormatNameTests.swift; sourceTree = "<group>"; };
+		5812290C27A486D4003A5D37 /* Veeravelly_FormatNameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Veeravelly_FormatNameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5812291027A486D4003A5D37 /* Veeravelly_FormatNameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veeravelly_FormatNameUITests.swift; sourceTree = "<group>"; };
+		5812291227A486D4003A5D37 /* Veeravelly_FormatNameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veeravelly_FormatNameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		581228E927A486D1003A5D37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581228FF27A486D4003A5D37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5812290927A486D4003A5D37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		581228E327A486D1003A5D37 = {
+			isa = PBXGroup;
+			children = (
+				581228EE27A486D1003A5D37 /* Veeravelly_FormatName */,
+				5812290527A486D4003A5D37 /* Veeravelly_FormatNameTests */,
+				5812290F27A486D4003A5D37 /* Veeravelly_FormatNameUITests */,
+				581228ED27A486D1003A5D37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		581228ED27A486D1003A5D37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				581228EC27A486D1003A5D37 /* Veeravelly_FormatName.app */,
+				5812290227A486D4003A5D37 /* Veeravelly_FormatNameTests.xctest */,
+				5812290C27A486D4003A5D37 /* Veeravelly_FormatNameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		581228EE27A486D1003A5D37 /* Veeravelly_FormatName */ = {
+			isa = PBXGroup;
+			children = (
+				581228EF27A486D1003A5D37 /* AppDelegate.swift */,
+				581228F127A486D1003A5D37 /* SceneDelegate.swift */,
+				581228F327A486D1003A5D37 /* ViewController.swift */,
+				581228F527A486D1003A5D37 /* Main.storyboard */,
+				581228F827A486D4003A5D37 /* Assets.xcassets */,
+				581228FA27A486D4003A5D37 /* LaunchScreen.storyboard */,
+				581228FD27A486D4003A5D37 /* Info.plist */,
+			);
+			path = Veeravelly_FormatName;
+			sourceTree = "<group>";
+		};
+		5812290527A486D4003A5D37 /* Veeravelly_FormatNameTests */ = {
+			isa = PBXGroup;
+			children = (
+				5812290627A486D4003A5D37 /* Veeravelly_FormatNameTests.swift */,
+			);
+			path = Veeravelly_FormatNameTests;
+			sourceTree = "<group>";
+		};
+		5812290F27A486D4003A5D37 /* Veeravelly_FormatNameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5812291027A486D4003A5D37 /* Veeravelly_FormatNameUITests.swift */,
+				5812291227A486D4003A5D37 /* Veeravelly_FormatNameUITestsLaunchTests.swift */,
+			);
+			path = Veeravelly_FormatNameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		581228EB27A486D1003A5D37 /* Veeravelly_FormatName */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5812291627A486D4003A5D37 /* Build configuration list for PBXNativeTarget "Veeravelly_FormatName" */;
+			buildPhases = (
+				581228E827A486D1003A5D37 /* Sources */,
+				581228E927A486D1003A5D37 /* Frameworks */,
+				581228EA27A486D1003A5D37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Veeravelly_FormatName;
+			productName = Veeravelly_FormatName;
+			productReference = 581228EC27A486D1003A5D37 /* Veeravelly_FormatName.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5812290127A486D4003A5D37 /* Veeravelly_FormatNameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5812291927A486D4003A5D37 /* Build configuration list for PBXNativeTarget "Veeravelly_FormatNameTests" */;
+			buildPhases = (
+				581228FE27A486D4003A5D37 /* Sources */,
+				581228FF27A486D4003A5D37 /* Frameworks */,
+				5812290027A486D4003A5D37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5812290427A486D4003A5D37 /* PBXTargetDependency */,
+			);
+			name = Veeravelly_FormatNameTests;
+			productName = Veeravelly_FormatNameTests;
+			productReference = 5812290227A486D4003A5D37 /* Veeravelly_FormatNameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5812290B27A486D4003A5D37 /* Veeravelly_FormatNameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5812291C27A486D4003A5D37 /* Build configuration list for PBXNativeTarget "Veeravelly_FormatNameUITests" */;
+			buildPhases = (
+				5812290827A486D4003A5D37 /* Sources */,
+				5812290927A486D4003A5D37 /* Frameworks */,
+				5812290A27A486D4003A5D37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5812290E27A486D4003A5D37 /* PBXTargetDependency */,
+			);
+			name = Veeravelly_FormatNameUITests;
+			productName = Veeravelly_FormatNameUITests;
+			productReference = 5812290C27A486D4003A5D37 /* Veeravelly_FormatNameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		581228E427A486D1003A5D37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					581228EB27A486D1003A5D37 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					5812290127A486D4003A5D37 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 581228EB27A486D1003A5D37;
+					};
+					5812290B27A486D4003A5D37 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 581228EB27A486D1003A5D37;
+					};
+				};
+			};
+			buildConfigurationList = 581228E727A486D1003A5D37 /* Build configuration list for PBXProject "Veeravelly_FormatName" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 581228E327A486D1003A5D37;
+			productRefGroup = 581228ED27A486D1003A5D37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				581228EB27A486D1003A5D37 /* Veeravelly_FormatName */,
+				5812290127A486D4003A5D37 /* Veeravelly_FormatNameTests */,
+				5812290B27A486D4003A5D37 /* Veeravelly_FormatNameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		581228EA27A486D1003A5D37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581228FC27A486D4003A5D37 /* LaunchScreen.storyboard in Resources */,
+				581228F927A486D4003A5D37 /* Assets.xcassets in Resources */,
+				581228F727A486D1003A5D37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5812290027A486D4003A5D37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5812290A27A486D4003A5D37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		581228E827A486D1003A5D37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581228F427A486D1003A5D37 /* ViewController.swift in Sources */,
+				581228F027A486D1003A5D37 /* AppDelegate.swift in Sources */,
+				581228F227A486D1003A5D37 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581228FE27A486D4003A5D37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5812290727A486D4003A5D37 /* Veeravelly_FormatNameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5812290827A486D4003A5D37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5812291127A486D4003A5D37 /* Veeravelly_FormatNameUITests.swift in Sources */,
+				5812291327A486D4003A5D37 /* Veeravelly_FormatNameUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5812290427A486D4003A5D37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 581228EB27A486D1003A5D37 /* Veeravelly_FormatName */;
+			targetProxy = 5812290327A486D4003A5D37 /* PBXContainerItemProxy */;
+		};
+		5812290E27A486D4003A5D37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 581228EB27A486D1003A5D37 /* Veeravelly_FormatName */;
+			targetProxy = 5812290D27A486D4003A5D37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		581228F527A486D1003A5D37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				581228F627A486D1003A5D37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		581228FA27A486D4003A5D37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				581228FB27A486D4003A5D37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5812291427A486D4003A5D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5812291527A486D4003A5D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5812291727A486D4003A5D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Veeravelly_FormatName/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Veeravelly-FormatName";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5812291827A486D4003A5D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Veeravelly_FormatName/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Veeravelly-FormatName";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5812291A27A486D4003A5D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Veeravelly-FormatNameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veeravelly_FormatName.app/Veeravelly_FormatName";
+			};
+			name = Debug;
+		};
+		5812291B27A486D4003A5D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Veeravelly-FormatNameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veeravelly_FormatName.app/Veeravelly_FormatName";
+			};
+			name = Release;
+		};
+		5812291D27A486D4003A5D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Veeravelly-FormatNameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Veeravelly_FormatName;
+			};
+			name = Debug;
+		};
+		5812291E27A486D4003A5D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Veeravelly-FormatNameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Veeravelly_FormatName;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		581228E727A486D1003A5D37 /* Build configuration list for PBXProject "Veeravelly_FormatName" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5812291427A486D4003A5D37 /* Debug */,
+				5812291527A486D4003A5D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5812291627A486D4003A5D37 /* Build configuration list for PBXNativeTarget "Veeravelly_FormatName" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5812291727A486D4003A5D37 /* Debug */,
+				5812291827A486D4003A5D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5812291927A486D4003A5D37 /* Build configuration list for PBXNativeTarget "Veeravelly_FormatNameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5812291A27A486D4003A5D37 /* Debug */,
+				5812291B27A486D4003A5D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5812291C27A486D4003A5D37 /* Build configuration list for PBXNativeTarget "Veeravelly_FormatNameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5812291D27A486D4003A5D37 /* Debug */,
+				5812291E27A486D4003A5D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 581228E427A486D1003A5D37 /* Project object */;
+}
