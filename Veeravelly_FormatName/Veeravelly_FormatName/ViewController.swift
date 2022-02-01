@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var initialsLabel: UILabel!
     
+    @IBOutlet weak var DetailLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -28,9 +30,13 @@ class ViewController: UIViewController {
         var lname = lastNameTextField.text!
         var c1 = fname.prefix(1)
         var c2 = lname.prefix(1)
+        var initials = c1 + c2
+        var result = initials.uppercased()
+        
+        DetailLabel.text = "Details"
         
         fullNameLabel.text = "Full Name : \(fname) , \(lname)"
-        initialsLabel.text = "initials: \(c1)\(c2)"
+        initialsLabel.text = "initials: \(result)"
     }
     
     
@@ -39,6 +45,7 @@ class ViewController: UIViewController {
         lastNameTextField.text = ""
         fullNameLabel.text = ""
         initialsLabel.text = ""
+        DetailLabel.text = ""
         firstNameTextField.becomeFirstResponder()
     }
     
