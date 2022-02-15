@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58A6DF5327BB215A00F2CD0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A6DF5227BB215A00F2CD0E /* AppDelegate.swift */; };
+		58A6DF5527BB215A00F2CD0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A6DF5427BB215A00F2CD0E /* SceneDelegate.swift */; };
+		58A6DF5727BB215A00F2CD0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A6DF5627BB215A00F2CD0E /* ViewController.swift */; };
+		58A6DF5A27BB215A00F2CD0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58A6DF5827BB215A00F2CD0E /* Main.storyboard */; };
+		58A6DF5C27BB215C00F2CD0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58A6DF5B27BB215C00F2CD0E /* Assets.xcassets */; };
+		58A6DF5F27BB215C00F2CD0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58A6DF5D27BB215C00F2CD0E /* LaunchScreen.storyboard */; };
+		58A6DF6A27BB215C00F2CD0E /* veeravelly_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A6DF6927BB215C00F2CD0E /* veeravelly_CalculatorTests.swift */; };
+		58A6DF7427BB215C00F2CD0E /* veeravelly_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A6DF7327BB215C00F2CD0E /* veeravelly_CalculatorUITests.swift */; };
+		58A6DF7627BB215C00F2CD0E /* veeravelly_CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A6DF7527BB215C00F2CD0E /* veeravelly_CalculatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58A6DF6627BB215C00F2CD0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58A6DF4727BB215A00F2CD0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58A6DF4E27BB215A00F2CD0E;
+			remoteInfo = veeravelly_Calculator;
+		};
+		58A6DF7027BB215C00F2CD0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58A6DF4727BB215A00F2CD0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58A6DF4E27BB215A00F2CD0E;
+			remoteInfo = veeravelly_Calculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58A6DF4F27BB215A00F2CD0E /* veeravelly_Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = veeravelly_Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58A6DF5227BB215A00F2CD0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58A6DF5427BB215A00F2CD0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		58A6DF5627BB215A00F2CD0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58A6DF5927BB215A00F2CD0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58A6DF5B27BB215C00F2CD0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58A6DF5E27BB215C00F2CD0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58A6DF6027BB215C00F2CD0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58A6DF6527BB215C00F2CD0E /* veeravelly_CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = veeravelly_CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58A6DF6927BB215C00F2CD0E /* veeravelly_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veeravelly_CalculatorTests.swift; sourceTree = "<group>"; };
+		58A6DF6F27BB215C00F2CD0E /* veeravelly_CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = veeravelly_CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58A6DF7327BB215C00F2CD0E /* veeravelly_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veeravelly_CalculatorUITests.swift; sourceTree = "<group>"; };
+		58A6DF7527BB215C00F2CD0E /* veeravelly_CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veeravelly_CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58A6DF4C27BB215A00F2CD0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58A6DF6227BB215C00F2CD0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58A6DF6C27BB215C00F2CD0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58A6DF4627BB215A00F2CD0E = {
+			isa = PBXGroup;
+			children = (
+				58A6DF5127BB215A00F2CD0E /* veeravelly_Calculator */,
+				58A6DF6827BB215C00F2CD0E /* veeravelly_CalculatorTests */,
+				58A6DF7227BB215C00F2CD0E /* veeravelly_CalculatorUITests */,
+				58A6DF5027BB215A00F2CD0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58A6DF5027BB215A00F2CD0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58A6DF4F27BB215A00F2CD0E /* veeravelly_Calculator.app */,
+				58A6DF6527BB215C00F2CD0E /* veeravelly_CalculatorTests.xctest */,
+				58A6DF6F27BB215C00F2CD0E /* veeravelly_CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58A6DF5127BB215A00F2CD0E /* veeravelly_Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				58A6DF5227BB215A00F2CD0E /* AppDelegate.swift */,
+				58A6DF5427BB215A00F2CD0E /* SceneDelegate.swift */,
+				58A6DF5627BB215A00F2CD0E /* ViewController.swift */,
+				58A6DF5827BB215A00F2CD0E /* Main.storyboard */,
+				58A6DF5B27BB215C00F2CD0E /* Assets.xcassets */,
+				58A6DF5D27BB215C00F2CD0E /* LaunchScreen.storyboard */,
+				58A6DF6027BB215C00F2CD0E /* Info.plist */,
+			);
+			path = veeravelly_Calculator;
+			sourceTree = "<group>";
+		};
+		58A6DF6827BB215C00F2CD0E /* veeravelly_CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				58A6DF6927BB215C00F2CD0E /* veeravelly_CalculatorTests.swift */,
+			);
+			path = veeravelly_CalculatorTests;
+			sourceTree = "<group>";
+		};
+		58A6DF7227BB215C00F2CD0E /* veeravelly_CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58A6DF7327BB215C00F2CD0E /* veeravelly_CalculatorUITests.swift */,
+				58A6DF7527BB215C00F2CD0E /* veeravelly_CalculatorUITestsLaunchTests.swift */,
+			);
+			path = veeravelly_CalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58A6DF4E27BB215A00F2CD0E /* veeravelly_Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58A6DF7927BB215C00F2CD0E /* Build configuration list for PBXNativeTarget "veeravelly_Calculator" */;
+			buildPhases = (
+				58A6DF4B27BB215A00F2CD0E /* Sources */,
+				58A6DF4C27BB215A00F2CD0E /* Frameworks */,
+				58A6DF4D27BB215A00F2CD0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = veeravelly_Calculator;
+			productName = veeravelly_Calculator;
+			productReference = 58A6DF4F27BB215A00F2CD0E /* veeravelly_Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58A6DF6427BB215C00F2CD0E /* veeravelly_CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58A6DF7C27BB215C00F2CD0E /* Build configuration list for PBXNativeTarget "veeravelly_CalculatorTests" */;
+			buildPhases = (
+				58A6DF6127BB215C00F2CD0E /* Sources */,
+				58A6DF6227BB215C00F2CD0E /* Frameworks */,
+				58A6DF6327BB215C00F2CD0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58A6DF6727BB215C00F2CD0E /* PBXTargetDependency */,
+			);
+			name = veeravelly_CalculatorTests;
+			productName = veeravelly_CalculatorTests;
+			productReference = 58A6DF6527BB215C00F2CD0E /* veeravelly_CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58A6DF6E27BB215C00F2CD0E /* veeravelly_CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58A6DF7F27BB215C00F2CD0E /* Build configuration list for PBXNativeTarget "veeravelly_CalculatorUITests" */;
+			buildPhases = (
+				58A6DF6B27BB215C00F2CD0E /* Sources */,
+				58A6DF6C27BB215C00F2CD0E /* Frameworks */,
+				58A6DF6D27BB215C00F2CD0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58A6DF7127BB215C00F2CD0E /* PBXTargetDependency */,
+			);
+			name = veeravelly_CalculatorUITests;
+			productName = veeravelly_CalculatorUITests;
+			productReference = 58A6DF6F27BB215C00F2CD0E /* veeravelly_CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58A6DF4727BB215A00F2CD0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					58A6DF4E27BB215A00F2CD0E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					58A6DF6427BB215C00F2CD0E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 58A6DF4E27BB215A00F2CD0E;
+					};
+					58A6DF6E27BB215C00F2CD0E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 58A6DF4E27BB215A00F2CD0E;
+					};
+				};
+			};
+			buildConfigurationList = 58A6DF4A27BB215A00F2CD0E /* Build configuration list for PBXProject "veeravelly_Calculator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58A6DF4627BB215A00F2CD0E;
+			productRefGroup = 58A6DF5027BB215A00F2CD0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58A6DF4E27BB215A00F2CD0E /* veeravelly_Calculator */,
+				58A6DF6427BB215C00F2CD0E /* veeravelly_CalculatorTests */,
+				58A6DF6E27BB215C00F2CD0E /* veeravelly_CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58A6DF4D27BB215A00F2CD0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58A6DF5F27BB215C00F2CD0E /* LaunchScreen.storyboard in Resources */,
+				58A6DF5C27BB215C00F2CD0E /* Assets.xcassets in Resources */,
+				58A6DF5A27BB215A00F2CD0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58A6DF6327BB215C00F2CD0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58A6DF6D27BB215C00F2CD0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58A6DF4B27BB215A00F2CD0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58A6DF5727BB215A00F2CD0E /* ViewController.swift in Sources */,
+				58A6DF5327BB215A00F2CD0E /* AppDelegate.swift in Sources */,
+				58A6DF5527BB215A00F2CD0E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58A6DF6127BB215C00F2CD0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58A6DF6A27BB215C00F2CD0E /* veeravelly_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58A6DF6B27BB215C00F2CD0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58A6DF7427BB215C00F2CD0E /* veeravelly_CalculatorUITests.swift in Sources */,
+				58A6DF7627BB215C00F2CD0E /* veeravelly_CalculatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58A6DF6727BB215C00F2CD0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58A6DF4E27BB215A00F2CD0E /* veeravelly_Calculator */;
+			targetProxy = 58A6DF6627BB215C00F2CD0E /* PBXContainerItemProxy */;
+		};
+		58A6DF7127BB215C00F2CD0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58A6DF4E27BB215A00F2CD0E /* veeravelly_Calculator */;
+			targetProxy = 58A6DF7027BB215C00F2CD0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58A6DF5827BB215A00F2CD0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58A6DF5927BB215A00F2CD0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58A6DF5D27BB215C00F2CD0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58A6DF5E27BB215C00F2CD0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58A6DF7727BB215C00F2CD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58A6DF7827BB215C00F2CD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58A6DF7A27BB215C00F2CD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = veeravelly_Calculator/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = veeravelly_Calculator;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.veeravelly-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58A6DF7B27BB215C00F2CD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = veeravelly_Calculator/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = veeravelly_Calculator;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.veeravelly-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58A6DF7D27BB215C00F2CD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.veeravelly-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/veeravelly_Calculator.app/veeravelly_Calculator";
+			};
+			name = Debug;
+		};
+		58A6DF7E27BB215C00F2CD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.veeravelly-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/veeravelly_Calculator.app/veeravelly_Calculator";
+			};
+			name = Release;
+		};
+		58A6DF8027BB215C00F2CD0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.veeravelly-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = veeravelly_Calculator;
+			};
+			name = Debug;
+		};
+		58A6DF8127BB215C00F2CD0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.veeravelly-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = veeravelly_Calculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58A6DF4A27BB215A00F2CD0E /* Build configuration list for PBXProject "veeravelly_Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58A6DF7727BB215C00F2CD0E /* Debug */,
+				58A6DF7827BB215C00F2CD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58A6DF7927BB215C00F2CD0E /* Build configuration list for PBXNativeTarget "veeravelly_Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58A6DF7A27BB215C00F2CD0E /* Debug */,
+				58A6DF7B27BB215C00F2CD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58A6DF7C27BB215C00F2CD0E /* Build configuration list for PBXNativeTarget "veeravelly_CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58A6DF7D27BB215C00F2CD0E /* Debug */,
+				58A6DF7E27BB215C00F2CD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58A6DF7F27BB215C00F2CD0E /* Build configuration list for PBXNativeTarget "veeravelly_CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58A6DF8027BB215C00F2CD0E /* Debug */,
+				58A6DF8127BB215C00F2CD0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58A6DF4727BB215A00F2CD0E /* Project object */;
+}
