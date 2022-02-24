@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58DC557827C8228F00BC9747 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC557727C8228F00BC9747 /* AppDelegate.swift */; };
+		58DC557A27C8228F00BC9747 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC557927C8228F00BC9747 /* SceneDelegate.swift */; };
+		58DC557C27C8228F00BC9747 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC557B27C8228F00BC9747 /* ViewController.swift */; };
+		58DC557F27C8228F00BC9747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58DC557D27C8228F00BC9747 /* Main.storyboard */; };
+		58DC558127C8229100BC9747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58DC558027C8229100BC9747 /* Assets.xcassets */; };
+		58DC558427C8229100BC9747 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58DC558227C8229100BC9747 /* LaunchScreen.storyboard */; };
+		58DC558F27C8229100BC9747 /* veeravelly_CurrencyConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC558E27C8229100BC9747 /* veeravelly_CurrencyConverterTests.swift */; };
+		58DC559927C8229200BC9747 /* veeravelly_CurrencyConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC559827C8229200BC9747 /* veeravelly_CurrencyConverterUITests.swift */; };
+		58DC559B27C8229200BC9747 /* veeravelly_CurrencyConverterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC559A27C8229200BC9747 /* veeravelly_CurrencyConverterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58DC558B27C8229100BC9747 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58DC556C27C8228F00BC9747 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58DC557327C8228F00BC9747;
+			remoteInfo = veeravelly_CurrencyConverter;
+		};
+		58DC559527C8229200BC9747 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58DC556C27C8228F00BC9747 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58DC557327C8228F00BC9747;
+			remoteInfo = veeravelly_CurrencyConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58DC557427C8228F00BC9747 /* veeravelly_CurrencyConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = veeravelly_CurrencyConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58DC557727C8228F00BC9747 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58DC557927C8228F00BC9747 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		58DC557B27C8228F00BC9747 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58DC557E27C8228F00BC9747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58DC558027C8229100BC9747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58DC558327C8229100BC9747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58DC558527C8229100BC9747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58DC558A27C8229100BC9747 /* veeravelly_CurrencyConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = veeravelly_CurrencyConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58DC558E27C8229100BC9747 /* veeravelly_CurrencyConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veeravelly_CurrencyConverterTests.swift; sourceTree = "<group>"; };
+		58DC559427C8229200BC9747 /* veeravelly_CurrencyConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = veeravelly_CurrencyConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58DC559827C8229200BC9747 /* veeravelly_CurrencyConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veeravelly_CurrencyConverterUITests.swift; sourceTree = "<group>"; };
+		58DC559A27C8229200BC9747 /* veeravelly_CurrencyConverterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veeravelly_CurrencyConverterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58DC557127C8228F00BC9747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DC558727C8229100BC9747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DC559127C8229200BC9747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58DC556B27C8228F00BC9747 = {
+			isa = PBXGroup;
+			children = (
+				58DC557627C8228F00BC9747 /* veeravelly_CurrencyConverter */,
+				58DC558D27C8229100BC9747 /* veeravelly_CurrencyConverterTests */,
+				58DC559727C8229200BC9747 /* veeravelly_CurrencyConverterUITests */,
+				58DC557527C8228F00BC9747 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58DC557527C8228F00BC9747 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58DC557427C8228F00BC9747 /* veeravelly_CurrencyConverter.app */,
+				58DC558A27C8229100BC9747 /* veeravelly_CurrencyConverterTests.xctest */,
+				58DC559427C8229200BC9747 /* veeravelly_CurrencyConverterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58DC557627C8228F00BC9747 /* veeravelly_CurrencyConverter */ = {
+			isa = PBXGroup;
+			children = (
+				58DC557727C8228F00BC9747 /* AppDelegate.swift */,
+				58DC557927C8228F00BC9747 /* SceneDelegate.swift */,
+				58DC557B27C8228F00BC9747 /* ViewController.swift */,
+				58DC557D27C8228F00BC9747 /* Main.storyboard */,
+				58DC558027C8229100BC9747 /* Assets.xcassets */,
+				58DC558227C8229100BC9747 /* LaunchScreen.storyboard */,
+				58DC558527C8229100BC9747 /* Info.plist */,
+			);
+			path = veeravelly_CurrencyConverter;
+			sourceTree = "<group>";
+		};
+		58DC558D27C8229100BC9747 /* veeravelly_CurrencyConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				58DC558E27C8229100BC9747 /* veeravelly_CurrencyConverterTests.swift */,
+			);
+			path = veeravelly_CurrencyConverterTests;
+			sourceTree = "<group>";
+		};
+		58DC559727C8229200BC9747 /* veeravelly_CurrencyConverterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58DC559827C8229200BC9747 /* veeravelly_CurrencyConverterUITests.swift */,
+				58DC559A27C8229200BC9747 /* veeravelly_CurrencyConverterUITestsLaunchTests.swift */,
+			);
+			path = veeravelly_CurrencyConverterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58DC557327C8228F00BC9747 /* veeravelly_CurrencyConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58DC559E27C8229200BC9747 /* Build configuration list for PBXNativeTarget "veeravelly_CurrencyConverter" */;
+			buildPhases = (
+				58DC557027C8228F00BC9747 /* Sources */,
+				58DC557127C8228F00BC9747 /* Frameworks */,
+				58DC557227C8228F00BC9747 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = veeravelly_CurrencyConverter;
+			productName = veeravelly_CurrencyConverter;
+			productReference = 58DC557427C8228F00BC9747 /* veeravelly_CurrencyConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58DC558927C8229100BC9747 /* veeravelly_CurrencyConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58DC55A127C8229200BC9747 /* Build configuration list for PBXNativeTarget "veeravelly_CurrencyConverterTests" */;
+			buildPhases = (
+				58DC558627C8229100BC9747 /* Sources */,
+				58DC558727C8229100BC9747 /* Frameworks */,
+				58DC558827C8229100BC9747 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58DC558C27C8229100BC9747 /* PBXTargetDependency */,
+			);
+			name = veeravelly_CurrencyConverterTests;
+			productName = veeravelly_CurrencyConverterTests;
+			productReference = 58DC558A27C8229100BC9747 /* veeravelly_CurrencyConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58DC559327C8229200BC9747 /* veeravelly_CurrencyConverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58DC55A427C8229200BC9747 /* Build configuration list for PBXNativeTarget "veeravelly_CurrencyConverterUITests" */;
+			buildPhases = (
+				58DC559027C8229200BC9747 /* Sources */,
+				58DC559127C8229200BC9747 /* Frameworks */,
+				58DC559227C8229200BC9747 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58DC559627C8229200BC9747 /* PBXTargetDependency */,
+			);
+			name = veeravelly_CurrencyConverterUITests;
+			productName = veeravelly_CurrencyConverterUITests;
+			productReference = 58DC559427C8229200BC9747 /* veeravelly_CurrencyConverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58DC556C27C8228F00BC9747 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					58DC557327C8228F00BC9747 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					58DC558927C8229100BC9747 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 58DC557327C8228F00BC9747;
+					};
+					58DC559327C8229200BC9747 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 58DC557327C8228F00BC9747;
+					};
+				};
+			};
+			buildConfigurationList = 58DC556F27C8228F00BC9747 /* Build configuration list for PBXProject "veeravelly_CurrencyConverter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58DC556B27C8228F00BC9747;
+			productRefGroup = 58DC557527C8228F00BC9747 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58DC557327C8228F00BC9747 /* veeravelly_CurrencyConverter */,
+				58DC558927C8229100BC9747 /* veeravelly_CurrencyConverterTests */,
+				58DC559327C8229200BC9747 /* veeravelly_CurrencyConverterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58DC557227C8228F00BC9747 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DC558427C8229100BC9747 /* LaunchScreen.storyboard in Resources */,
+				58DC558127C8229100BC9747 /* Assets.xcassets in Resources */,
+				58DC557F27C8228F00BC9747 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DC558827C8229100BC9747 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DC559227C8229200BC9747 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58DC557027C8228F00BC9747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DC557C27C8228F00BC9747 /* ViewController.swift in Sources */,
+				58DC557827C8228F00BC9747 /* AppDelegate.swift in Sources */,
+				58DC557A27C8228F00BC9747 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DC558627C8229100BC9747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DC558F27C8229100BC9747 /* veeravelly_CurrencyConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58DC559027C8229200BC9747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DC559927C8229200BC9747 /* veeravelly_CurrencyConverterUITests.swift in Sources */,
+				58DC559B27C8229200BC9747 /* veeravelly_CurrencyConverterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58DC558C27C8229100BC9747 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58DC557327C8228F00BC9747 /* veeravelly_CurrencyConverter */;
+			targetProxy = 58DC558B27C8229100BC9747 /* PBXContainerItemProxy */;
+		};
+		58DC559627C8229200BC9747 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58DC557327C8228F00BC9747 /* veeravelly_CurrencyConverter */;
+			targetProxy = 58DC559527C8229200BC9747 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58DC557D27C8228F00BC9747 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58DC557E27C8228F00BC9747 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58DC558227C8229100BC9747 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58DC558327C8229100BC9747 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58DC559C27C8229200BC9747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58DC559D27C8229200BC9747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58DC559F27C8229200BC9747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = veeravelly_CurrencyConverter/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = veeravelly_CurrencyConverter;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.veeravelly-CurrencyConverter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58DC55A027C8229200BC9747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = veeravelly_CurrencyConverter/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = veeravelly_CurrencyConverter;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.veeravelly-CurrencyConverter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58DC55A227C8229200BC9747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.veeravelly-CurrencyConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/veeravelly_CurrencyConverter.app/veeravelly_CurrencyConverter";
+			};
+			name = Debug;
+		};
+		58DC55A327C8229200BC9747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.veeravelly-CurrencyConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/veeravelly_CurrencyConverter.app/veeravelly_CurrencyConverter";
+			};
+			name = Release;
+		};
+		58DC55A527C8229200BC9747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.veeravelly-CurrencyConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = veeravelly_CurrencyConverter;
+			};
+			name = Debug;
+		};
+		58DC55A627C8229200BC9747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.veeravelly-CurrencyConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = veeravelly_CurrencyConverter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58DC556F27C8228F00BC9747 /* Build configuration list for PBXProject "veeravelly_CurrencyConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58DC559C27C8229200BC9747 /* Debug */,
+				58DC559D27C8229200BC9747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58DC559E27C8229200BC9747 /* Build configuration list for PBXNativeTarget "veeravelly_CurrencyConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58DC559F27C8229200BC9747 /* Debug */,
+				58DC55A027C8229200BC9747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58DC55A127C8229200BC9747 /* Build configuration list for PBXNativeTarget "veeravelly_CurrencyConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58DC55A227C8229200BC9747 /* Debug */,
+				58DC55A327C8229200BC9747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58DC55A427C8229200BC9747 /* Build configuration list for PBXNativeTarget "veeravelly_CurrencyConverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58DC55A527C8229200BC9747 /* Debug */,
+				58DC55A627C8229200BC9747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58DC556C27C8228F00BC9747 /* Project object */;
+}
