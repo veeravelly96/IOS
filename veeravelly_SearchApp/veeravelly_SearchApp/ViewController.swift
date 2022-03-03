@@ -24,109 +24,239 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var SearchButton: UIButton!
     
-    var imageNumber = 0
     
-    var topic = 1
     
- let arr = [["jrntr","prabhas","maheshbabu","pawankalyan","balakrishna"],["frangipani","lotus","magnolia","rose","sunflower"],["lion","elephant","rhino","buffalo","leopard"],["bg","404"]]
+ let arr = [["player1","player2","player3","player4","player5"],["place1","place2","place3","place4","place5"],["actor1","actor2","actor3","actor4","actor5",],["bg","404"]]
     
-    let actors_keywords = ["jrntr","prabhas","maheshbabu","pawankalyan","balakrishna"]
     
-    var animal_keywords = ["lion","elephant","rhino","buffalo","leopard"]
+    var players = ["player","players","cricketer","cricket","dhoni","raina","jadeja","kohli","ashwin","celebrity","batsmen","match"]
+        
+    var places = ["places","place","goa","kerala","hyderabad","shimla","amritsar","journey","roam","memories","travelling"]
+    let actors = ["actor","actors","hero","tollywood","jrntr","prabhas","maheshbabu","pawankalyan","balakrishna","celebrity","hero","film"]
     
-    var flower_keywords = ["frangipani","lotus","magnolia","rose","sunflower"]
+        var topic = 0
+        var imag1:Int!
+        var imag2:Int!
+        var imag3:Int!
+        var text1:Int!
+        var text2:Int!
+        var text3:Int!
+
+
     
-    let actors_array = [["Jr NTR","Prabhas","Mahesh Babu","Pawan Kalyan","Balakrishna"],["Nandamuri Taraka Rama Rao Jr. (born 20 May 1983), also known as Jr NTR or Tarak, is an Indian actor, singer, and television presenter who works in Telugu cinema. In his film career spanning 20 years, he has worked in over 30 films. Popularly referred as Young Tiger of Tollywood, Rama Rao has received two state Nandi Awards, two Filmfare Awards South and four CineMAA Awards. One of the highest paid Telugu film actors, he was ranked 28th in Forbes India Celebrity 100 list in 2018.","Uppalapati Venkata Suryanarayana Prabhas Raju (born 23 October 1979), known mononymously as Prabhas, is an Indian actor who works predominantly in Telugu cinema. One of the highest-paid actors in Indian cinema, Prabhas has featured in Forbes India's Celebrity 100 list three times since 2015 based on his income and popularity. He has received seven Filmfare Awards South nominations and is a recipient of the Nandi Award and the SIIMA Award.","Ghattamaneni Mahesh Babu (born 9 August 1975) is an Indian actor, producer, media personality, and philanthropist who works mainly in Telugu cinema. He has appeared in more than 25 films, and won several accolades including, eight Nandi Awards, five Filmfare South Awards, four South Indian International Movie Awards, three CineMAA Awards, and one IIFA Utsavam Award. He also owns the production house G. Mahesh Babu Entertainment.","Pawan Kalyan (born Konidela Kalyan Babu, 2 September 1968) is an Indian actor, director, screenwriter, stunt coordinator, philanthropist, and politician. His films are predominantly in Telugu cinema. Kalyan is the younger brother of actor-politician Chiranjeevi, and made his debut in the 1996 film Akkada Ammayi Ikkada Abbayi. He starred in Tholi Prema in 1998, which won the National Film Award for Best Feature Film in Telugu that year.","Nandamuri Balakrishna (born 10 June 1960), mononymously known as Balakrishna or Balayya, is an Indian actor, producer and politician. He appeared in more than 100 Telugu films over forty years in a variety of roles and established himself as one of the leading actors of Telugu cinema. He won three Nandi Awards and one South Indian International Movie Award. He is an elected member of the Andhra Pradesh Legislative Assembly from Hindupur constituency since 2019."]]
-    
-    var animal_array = [["African bush elephant","Black rhinoceros","African buffalo","Lion","Leopard"],["The African bush elephant (Loxodonta africana) is a very large herbivore with thick, almost hairless skin; a long, flexible, prehensile trunk; upper incisors forming long, curved, ivory tusks; and large, fan-shaped ears. Its closest living relative is the African forest elephant (Loxodonta cyclotis).","The black rhinoceros (Diceros bicornis) is a large herbivore with two upright horns on its nasal bridge. Its thick (1.5–5 cm), protective skin is formed from layers of collagen arranged in a lattice structure, and is very hard to puncture. Because it is now critically endangered, hunting is extremely limited.","The African buffalo (Syncerus caffer) is a large horned bovid. It is the only animal among the Big Five that is not on the “endangered” or “threatened” list.[11] The Cape buffalo (Syncerus caffer caffer) is considered by many to be the most dangerous to hunters of any of the Big Five.","The lion (Panthera leo) is a large, carnivorous feline found in Africa and northwest India. It has a short, tawny coat; a tufted tail; and, in the male, a heavy mane around the neck and shoulders. Lions are desirable to hunters because of the very real danger involved in hunting them.","The leopard (Panthera pardus) is a large, carnivorous feline. Its fur may be either black, or tawny with dark rosette-shaped markings. The leopard is considered the most difficult of the Big Five to hunt because of its nocturnal habits (it is most active between sunset and sunrise, although it may hunt during the day in some areas."]]
-    
-    var flower_array = ["frangipani, (genus Plumeria), also called plumeria, genus of about 12 species of deciduous shrubs or small trees in the dogbane family (Apocynaceae), native to the New World tropics", "Nelumbo nucifera, also known as Indian lotus, sacred lotus, or simply lotus, is one of two extant species of aquatic plant in the family Nelumbonaceae", "Magnolia is a large genus of about 210 flowering plant species in the subfamily Magnolioideae of the family Magnoliaceae", "A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears", "Helianthus is a genus comprising about 70 species of annual and perennial flowering plants in the daisy family Asteraceae" ]
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        updateUI(imageNumber)
-        // Do any additional setup after loading the view.
-    }
+        showPrevImages.isHidden = true
+        showNextImages.isHidden = true
+                SearchButton.isEnabled = false
+                ResetButton.isHidden = true
+                resultImage.image = UIImage(named: arr[3][0])
+                topicInfoText.text = nil
 
-    @IBAction func searchButtonAction(_ sender: UIButton) {
         
-        //searchInput = searchTextField.text!
-                
-                if(actors_keywords.contains(searchTextField.text!)){
+    }
+    @IBAction func searchTextField(_ sender: UITextField) {
+        
+        SearchButton.isEnabled = true
+                if(sender.text == ""){
+                    SearchButton.isEnabled = false
                     
-                    resultImage.image = UIImage(named: actors_keywords[0])
-                   
-                    
-                
                 }
-                
-                if(animal_keywords.contains(searchTextField.text!)){
-                    
-                    resultImage.image = UIImage(named: animal_keywords[0])
+                else{
+                    showPrevImages.isEnabled = false
+                    showNextImages.isEnabled = false
+                    SearchButton.isEnabled = true
+                    ResetButton.isHidden = true
                 }
-                
-                if(flower_keywords.contains(searchTextField.text!)){
-                    
-                    resultImage.image = UIImage(named: flower_keywords[0])
-                }
+         
     }
     
-    func updateUI(_ imageNum: Int){
-            if(actors_keywords.contains(searchTextField.text!)){
-                resultImage.image = UIImage(named: actors_keywords[imageNum])
-            }
-            
-            if(animal_keywords.contains(searchTextField.text!)){
-                resultImage.image = UIImage(named: animal_keywords[imageNum])
-            }
-            
-            if(flower_keywords.contains(searchTextField.text!)){
-                resultImage.image = UIImage(named: flower_keywords[imageNum])
-            }
+    
+    
+    var player = [["dhoni","raina","jadeja","kohli","ashwin"],["Mahendra Singh Dhoni (born 7 July 1981) is a former international cricketer who played as a right-handed wicketkeeper batsman . His power hitting ability and offensive batting style made his reputation as a finisher. He is widely considered as one of the greatest white ball cricket captain ever. He captained the Indian national cricket team in limited-overs formats from 2007 to 2017 and in Test cricket from 2008 to 2014.","Suresh raina is a indian player left hander batsmen","jadeja is an indian cricket player has an ability to bowl","kohli is an indian cricket player and he is a right handed batsman","ashwin is indian cricket player and he is an right handed spinner "]]
+        
+        
+    var place = [["goa","kerala","hyderabad","shimla","amritsar"],["Goa is a state on the southwestern coast of India within the Konkan region, geographically separated from the Deccan highlands by the Western Ghats.","Kerala, southwestern coastal state of India. It is a small state, constituting only about 1 percent of the total area of the country.","Hyderabad, city, Telangana state, south-central India. It is Telangana’s largest and most-populous city and is the major urban centre for all of south-central interior India. From 1956 to 2014 Hyderabad was the capital of Andhra Pradesh state, but, with the creation of Telangana from Andhra Pradesh in 2014, it was redesignated as the capital of both states.","Shimla, formerly Simla,  city, capital of Himachal Pradesh state, northwestern India. The city lies northeast of Chandigarh on a ridge of the Himalayan foothills, at an elevation of about 7,100 feet (2,200 metres).","Amritsar historically also known as Rāmdāspur and colloquially as Ambarsar, is the second largest city in the Indian state of Punjab, after Ludhiana"]]
+
+    let actor = [["jrntr","prabhas","maheshbabu","pawankalyan","balakrishna"],["Nandamuri Taraka Rama Rao Jr. (born 20 May 1983), also known as Jr NTR or Tarak, is an Indian actor, singer, and television presenter who works in Telugu cinema. In his film career spanning 20 years, he has worked in over 30 films. Popularly referred as Young Tiger of Tollywood, Rama Rao has received two state Nandi Awards, two Filmfare Awards South and four CineMAA Awards. One of the highest paid Telugu film actors, he was ranked 28th in Forbes India Celebrity 100 list in 2018.","Uppalapati Venkata Suryanarayana Prabhas Raju (born 23 October 1979), known mononymously as Prabhas, is an Indian actor who works predominantly in Telugu cinema. One of the highest-paid actors in Indian cinema, Prabhas has featured in Forbes India's Celebrity 100 list three times since 2015 based on his income and popularity. He has received seven Filmfare Awards South nominations and is a recipient of the Nandi Award and the SIIMA Award.","Ghattamaneni Mahesh Babu (born 9 August 1975) is an Indian actor, producer, media personality, and philanthropist who works mainly in Telugu cinema. He has appeared in more than 25 films, and won several accolades including, eight Nandi Awards, five Filmfare South Awards, four South Indian International Movie Awards, three CineMAA Awards, and one IIFA Utsavam Award. He also owns the production house G. Mahesh Babu Entertainment.","Pawan Kalyan (born Konidela Kalyan Babu, 2 September 1968) is an Indian actor, director, screenwriter, stunt coordinator, philanthropist, and politician. His films are predominantly in Telugu cinema. Kalyan is the younger brother of actor-politician Chiranjeevi, and made his debut in the 1996 film Akkada Ammayi Ikkada Abbayi. He starred in Tholi Prema in 1998, which won the National Film Award for Best Feature Film in Telugu that year.","Nandamuri Balakrishna (born 10 June 1960), mononymously known as Balakrishna or Balayya, is an Indian actor, producer and politician. He appeared in more than 100 Telugu films over forty years in a variety of roles and established himself as one of the leading actors of Telugu cinema. He won three Nandi Awards and one South Indian International Movie Award. He is an elected member of the Andhra Pradesh Legislative Assembly from Hindupur constituency since 2019."]]
+    
+    
+    
+    
+    @IBAction func searchButtonAction(_ sender: UIButton) {
+        imag1 = 0
+        imag2 = 0
+        imag3 = 0
+        text1 = 0
+        text2 = 0
+        text3 = 0
+        showPrevImages.isHidden = false
+        showNextImages.isHidden = false
+        showPrevImages.isEnabled = false
+        showNextImages.isEnabled = false
+        ResetButton.isHidden = false
+        if(players.contains(searchTextField.text!)){
+            showNextImages.isEnabled = true
+            showPrevImages.isEnabled = false
+            resultImage.image = UIImage(named: arr[0][imag1])
+            topic = 1
+            topicInfoText.text = player[1][text1]
         }
+        else if(places.contains(searchTextField.text!)){
+            showNextImages.isEnabled = true
+            showPrevImages.isEnabled = false
+            resultImage.image = UIImage(named: arr[1][imag2])
+            topic = 2
+            topicInfoText.text = place[1][text2]
+        }
+        else if(actors.contains(searchTextField.text!)){
+            showNextImages.isEnabled = true
+            showPrevImages.isEnabled = false
+            resultImage.image = UIImage(named: arr[2][imag3])
+            topic = 3
+            topicInfoText.text = actor[1][text3]
+        }
+        else{
+            resultImage.image = UIImage(named: arr[3][1])
+            topicInfoText.text = nil
+            showPrevImages.isHidden = true
+            showNextImages.isHidden = true
+            ResetButton.isEnabled = true
+        }
+        
+
+       
+    }
+    
+    
     @IBAction func showNextImagesBtn(_ sender: UIButton) {
-        imageNumber += 1
-                        updateUI(imageNumber)
-        showPrevImages.isEnabled = true
-                
-                if(imageNumber == actors_keywords.count-1){
-                    showNextImages.isEnabled = false
-                        }
-                
-                if(imageNumber == animal_keywords.count-1){
-                    showNextImages.isEnabled = false
-                        }
-                
-                if(imageNumber == flower_keywords.count-1){
-                    showNextImages.isEnabled = false
-                        }
+        if(topic == 1){
+                    imag1 += 1
+                    text1 += 1
+                    dataUpdate(imgNo: imag1)
+                }
+                if(topic == 2){
+                    imag2 += 1
+                    text2 += 1
+                    dataUpdate(imgNo: imag2)
+                }
+                if(topic == 3){
+                    imag3 += 1
+                    text3 += 1
+                    dataUpdate(imgNo: imag3)
+                }
+
 
     }
     
     @IBAction func ShowPrevImagesBtn(_ sender: UIButton) {
-        
-        showNextImages.isEnabled = true
-                        imageNumber -= 1
-                        updateUI(imageNumber)
-                        
-                        if(imageNumber == 0){
-                            showPrevImages.isEnabled = false
-                        }
+        if(topic == 1){
+                    imag1 -= 1
+                    text1 -= 1
+                    dataUpdate(imgNo: imag1)
+                }
+                if(topic == 2){
+                    imag2 -= 1
+                    text2 -= 1
+                    dataUpdate(imgNo: imag2)
+                }
+                if(topic == 3){
+                    imag3 -= 1
+                    text3 -= 1
+                    dataUpdate(imgNo: imag3)
+                }
+
+       
     }
     
     @IBAction func ResetButtonClicked(_ sender: UIButton) {
         
-        showPrevImages.isHidden = true
-        showNextImages.isHidden = true
-//        resultImage.image = UIImage(named: arr[3][0])
-        topicInfoText.text = nil
-        //imageName.text = nil
-        searchTextField.text = nil
-        ResetButton.isHidden = true
+                showPrevImages.isHidden = true
+                showNextImages.isHidden = true
+                topicInfoText.text = nil
+                searchTextField.text = nil
+                ResetButton.isHidden = true
+                resultImage.image = UIImage(named: arr[3][0])
+                imag1 = 0
+                imag2 = 0
+                imag3 = 0
+                text1 = 0
+                text2 = 0
+                text3 = 0
+                topic = 0
+                
+
+        
         
     }
+    func dataUpdate(imgNo: Int){
+            if(topic == 1){
+                if imag1 == arr[0].count-1 {
+                    showNextImages.isEnabled = false
+                    showPrevImages.isEnabled = true
+                    resultImage.image = UIImage(named: arr[0][imag1])
+                    topicInfoText.text = player[1][text1]
+                }
+                else if(imag1 == 0){
+                    showPrevImages.isEnabled = false
+                    showNextImages.isEnabled = true
+                    resultImage.image = UIImage(named: arr[0][imag1])
+                    topicInfoText.text = player[1][text1]
+                }
+                else{
+                    showNextImages.isEnabled = true
+                    showPrevImages.isEnabled = true
+                    resultImage.image = UIImage(named: arr[0][imag1])
+                    topicInfoText.text = player[1][text1]
+                }
+            }
+            if(topic == 2){
+                if imag2 == arr[1].count-1 {
+                    showNextImages.isEnabled = false
+                    showPrevImages.isEnabled = true
+                    resultImage.image = UIImage(named: arr[1][imag2])
+                    topicInfoText.text = place[1][text2]
+                }
+                else if(imag2 == 0){
+                    showPrevImages.isEnabled = false
+                    showNextImages.isEnabled = true
+                    resultImage.image = UIImage(named: arr[1][imag2])
+                    topicInfoText.text = place[1][text2]
+                }
+                else{
+                    showNextImages.isEnabled = true
+                    showPrevImages.isEnabled = true
+                    resultImage.image = UIImage(named: arr[1][imag2])
+                    topicInfoText.text = place[1][text2]
+                    
+                }
+            }
+            if(topic == 3){
+                if imag3 == arr[2].count-1 {
+                    showNextImages.isEnabled = false
+                    showPrevImages.isEnabled = true
+                    resultImage.image = UIImage(named: arr[2][imag3])
+                    topicInfoText.text = actor[1][text3]
+                }
+                else if(imag3 == 0){
+                    showPrevImages.isEnabled = false
+                    showNextImages.isEnabled = true
+                    resultImage.image = UIImage(named: arr[2][imag3])
+                    topicInfoText.text = actor[1][text3]
+                }
+                else{
+                    showNextImages.isEnabled = true
+                    showPrevImages.isEnabled = true
+                    resultImage.image = UIImage(named: arr[2][imag3])
+                    topicInfoText.text = actor[1][text3]
+                    
+                }
+            }
+
     
 }
 
+}
