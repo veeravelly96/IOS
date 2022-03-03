@@ -105,8 +105,12 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="ResetButton" destination="RFP-b2-3hS" id="oBI-2g-KLw"/>
+                        <outlet property="SearchButton" destination="Yfr-lp-moT" id="VHl-5R-d9D"/>
                         <outlet property="resultImage" destination="kv7-O6-0dD" id="qfG-uj-f64"/>
                         <outlet property="searchTextField" destination="DcQ-pC-M6m" id="FAJ-ZU-9UK"/>
+                        <outlet property="showNextImages" destination="0hP-ER-Wsu" id="niF-ps-dpU"/>
+                        <outlet property="showPrevImages" destination="fmh-Jn-P4g" id="Iq1-mS-JRC"/>
                         <outlet property="topicInfoText" destination="c8M-pj-pge" id="PEG-t5-VKf"/>
                     </connections>
                 </viewController>
