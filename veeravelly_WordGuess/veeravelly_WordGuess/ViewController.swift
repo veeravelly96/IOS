@@ -22,214 +22,196 @@ class ViewController: UIViewController {
     @IBOutlet weak var guessLetterField: UITextField!
     
     
+    @IBOutlet weak var guessLetterButton: UIButton!
+    
     @IBOutlet weak var hintLabel: UILabel!
     
 
     @IBOutlet weak var guessCountLabel: UILabel!
     @IBOutlet weak var playAgainButton: UIButton!
     
-    @IBOutlet weak var guessaletter: UIButton!
+    
     
     
     @IBOutlet weak var imageviewLabel: UIImageView!
     
-    var arraywords = [["BOOKS","Used to read"],
-                        ["Bat","used to play"],["CAR","Used to travel"],["GAS","used as fuel"],["KNIFE","used for cutting"]]
-    
-    var guess = ""
-    var imagesnames = ["book","Bat","car","gas","knife","try"]
-    var l = ""
-    var wordIterator = 0
-    var guessedletcount = ""
-    let maxNumOfWrongGuesses  = 10
-    var guessleft = 10
-    var count = 0
-    var guessedwords = 0
-    var wronginputs = 0
-    var tryvariable=0
-    
+    var images =  ["bat","books","Car","gas","knife"]
+    let maxNoOfWrongGuesses = 10
+    var guessesremained = 11
+    var hintWord = ""
+    var wordGuess = ""
+    var guessCount = 0
+    var wordsGuessed = 0
+    var wordsMissed = 0
+    var guessedLetters = ""
+    var indexOfWord = 0
+    var arr = [["BAT","used for batting"],["BOOKS","used for reading"],["CAR","used for transportation"],["GAS","used as fuel for car"],["KNIFE","used to kill"]]
+    var count = 0;
+    var word = ""
+    var lettersGuessed = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        l = arraywords[wordIterator][0]
-        guess = arraywords[wordIterator][1]
-        hintLabel.text = "HINT: " + guess;
-        wordsGuessedLabel.text = "Total number of words Guessed  succesfully:0"
-        wordsMissedLabel.text = "Total number of words guessed wrongly : 0"
-        totalWordsLabel.text = "Total number of words in the game: \(arraywords.count)"
-        wordsRemainingLabel.text = "Total number of words remaining in the game: \(arraywords.count)"
-        guessCountLabel.text = "You have Made 0 guesses"
-        guesslabelouput()
-        guessaletter.isEnabled = false
-        
+        wordGuess = arr[indexOfWord][0]
+        hintWord = arr[indexOfWord][1]
+        hintLabel.text = "HINT: " + hintWord
+        totalWordsLabel.text = "Total number of words in game: \(arr.count)"
+        wordsRemainingLabel.text = "Total number of words remaining in game: \(arr.count)"
+        formatWordField()
+        guessLetterButton.isEnabled = false
         playAgainButton.isHidden = true
     }
-    func updateoutputs(){
-        
-        wordsMissedLabel.text = "Total number of words guessed wrongly :\(wronginputs)"
-        wordsGuessedLabel.text = "Total number of words Guessed  succesfully: \(guessedwords)"
-        
-        wordsRemainingLabel.text = "Total number of words remaining in the game:\(arraywords.count - (guessedwords + wronginputs))"
-    }
-   
-    func guesslabelouput() {
-        var ouput = ""
-        guessedletcount += guessLetterField.text!
-        
-        for letter in l {
-            if guessedletcount.contains(letter) {
-                ouput = ouput + " \(letter)"
-            } else {
-                ouput += " _"
-            }
-        }
-        ouput.removeFirst()
-        userGuessLabel.text = ouput
-    }
-    
-    func guessmethod(){
-        
-        guessLetterField.resignFirstResponder()
-        
-        guessLetterField.text = ""
-    }
-    
-    
-    func guesslettermethod() {
-        guesslabelouput()
-        count += 1
-        
-        
-        let letterguessed = guessLetterField.text!
-        
-        if !l.contains(letterguessed) {
-            
-            guessleft = guessleft - 1
-            
-        }
-        
-        let outputword = userGuessLabel.text!
-        
-        if guessleft == 0 {
-            
-            playAgainButton.isHidden = false
-            guessaletter.isEnabled = false
-            guessLetterField.isEnabled = false
-           // tryvariable+=1
-            guessCountLabel.text = "You have used all the available guesses, Please start again” "
-            wronginputs += 1
-            updateoutputs()
-            updateImageView()
-        } else if !outputword.contains("_") {
-           
-            playAgainButton.isHidden = false
-            guessaletter.isEnabled = false
-            guessLetterField.isEnabled = false
-            guessCountLabel.text = "You won,it took you \(count) attempts to guesses the word!"
-            hintLabel.text = "HINT: A game played";
-
-            guessedwords += 1
-            updateoutputs()
-            updateImageView()
-        } else {
-            // Update our guess count
-            //let guess = ( count == 1 ? "Guess" : "Guesses")
-            guessCountLabel.text = "You have Made \(count) guesses"
-        }
-        
-        if (guessedwords + wronginputs) == arraywords.count {
-            guessCountLabel.text = "Congratulations, You are done, Please start over again "
-            updateImageView()
-        }
-    }
     
    
-    @IBAction func guessLetterFieldChanged(_ sender: UITextField) {
+    @IBAction func guessLetterFieldButton(_ sender: Any) {
+        
         if let letterGuessed = guessLetterField.text?.last {
             guessLetterField.text = "\(letterGuessed)"
-            guessLetterField.isEnabled = true
+            guessLetterButton.isEnabled = true
         } else {
             
-            guessaletter.isEnabled = false
+            guessLetterButton.isEnabled = false
         }
-    }
-    
-    
-    
-    @IBAction func doneKeypressed(_ sender: UITextField) {
-        guesslettermethod()
-        guessmethod()
-        let letter = guessLetterField.text
-        if letter?.isEmpty == true{
-            guessaletter.isEnabled = false
-        }
-        else{
-            guessaletter.isEnabled = true
-        }
+        
     }
     
     @IBAction func guessLetterButtonPressed(_ sender: UIButton) {
-        guesslettermethod()
-        guessmethod()
+        letterGuessed()
+        updateInterfaceAfterGuess()
         let letter = guessLetterField.text
         if letter?.isEmpty == true{
-            guessaletter.isEnabled = false
+            guessLetterButton.isEnabled = false
         }
         else{
-            guessaletter.isEnabled = true
+            
+            guessLetterButton.isEnabled = true
         }
         
     }
+    
+    
+    
+  
+    
     
     @IBAction func playAgainButtonPressed(_ sender: UIButton) {
         imageviewLabel.isHidden = true
-        wordIterator += 1
-        if wordIterator == arraywords.count {
-            wordIterator = 0
-            guessedwords = 0
-            wronginputs = 0
-            updateoutputs()
+        indexOfWord += 1
+        if indexOfWord == arr.count {
+            indexOfWord = 0
+            wordsGuessed = 0
+            wordsMissed = 0
+            updateCount()
         }
-        l = arraywords[wordIterator][0]
-        guess = arraywords[wordIterator][1]
-        hintLabel.text = "HINT: " + guess
-        
+        wordGuess = arr[indexOfWord][0]
+        hintWord = arr[indexOfWord][1]
+        hintLabel.text = "HINT: " + hintWord
         playAgainButton.isHidden = true
         guessLetterField.isEnabled = true
-        guessaletter.isEnabled = false
-        
-        guessleft = maxNumOfWrongGuesses
-        guessedletcount = ""
-        guesslabelouput()
-        guessCountLabel.text = "You have Made 0 Guesses"
-        count = 0
+        guessLetterButton.isEnabled = false
+        guessesremained = maxNoOfWrongGuesses + 1
+        guessedLetters = ""
+        formatWordField()
+        guessCountLabel.text = "You have Made Zero Guessess"
+        guessCount = 0
     }
     
-    func updateImageView(){
-        var count=0
-        if(guessleft==0){
-             count = wordIterator
-            wordIterator=5
+    func updateImages(){
+        if(guessesremained == 0){
+            imageviewLabel.isHidden = false
+            imageviewLabel.image = UIImage(named: images[5])
+            let originalImageFrame = imageviewLabel.frame
+            let widthShrink: CGFloat = 10
+            let heightShrink: CGFloat = 10
+            let newFrame = CGRect(
+            x: imageviewLabel.frame.origin.x + widthShrink,
+            y: imageviewLabel.frame.origin.y + heightShrink,
+            width: imageviewLabel.frame.width - widthShrink,
+            height: imageviewLabel.frame.height - heightShrink)
+            imageviewLabel.frame = newFrame
+            UIView.animate(withDuration: 1.0, delay: 0, usingSpringWithDamping: 0.2, initialSpringVelocity: 10.0,  animations: {
+                            self.imageviewLabel.frame = originalImageFrame
+                        })
         }
-        imageviewLabel.isHidden = false
-        imageviewLabel.image = UIImage(named: imagesnames[wordIterator])
-        let originalImageFrame = imageviewLabel.frame
-        let widthShrink: CGFloat = 10
-        let heightShrink: CGFloat = 10
-        let newFrame = CGRect(
-        x: imageviewLabel.frame.origin.x + widthShrink,
-        y: imageviewLabel.frame.origin.y + heightShrink,
-        width: imageviewLabel.frame.width - widthShrink,
-        height: imageviewLabel.frame.height - heightShrink)
-        imageviewLabel.frame = newFrame
-        UIView.animate(withDuration: 1.0, delay: 0, usingSpringWithDamping: 0.2, initialSpringVelocity: 10.0,  animations: {
-            self.imageviewLabel.frame = originalImageFrame
-        })
-        if(guessleft==0){
-            wordIterator = count
+        else{
+            imageviewLabel.isHidden = false
+            imageviewLabel.image = UIImage(named: images[indexOfWord])
+            let originalImageFrame = imageviewLabel.frame
+            let widthShrink: CGFloat = 10
+            let heightShrink: CGFloat = 10
+            let newFrame = CGRect(
+            x: imageviewLabel.frame.origin.x + widthShrink,
+            y: imageviewLabel.frame.origin.y + heightShrink,
+            width: imageviewLabel.frame.width - widthShrink,
+            height: imageviewLabel.frame.height - heightShrink)
+            imageviewLabel.frame = newFrame
+            UIView.animate(withDuration: 1.0, delay: 0, usingSpringWithDamping: 0.2, initialSpringVelocity: 10.0,  animations: {
+                            self.imageviewLabel.frame = originalImageFrame
+                        })
+        }
+        
+    }
+    
+    func updateCount(){
+        wordsMissedLabel.text = "Total number of words guessed wrongly: \(wordsMissed)"
+        wordsGuessedLabel.text = "Total number of words guessed successfully: \(wordsGuessed)"
+        wordsRemainingLabel.text = "Total number of words remaining in game: \(arr.count - (wordsGuessed + wordsMissed))"
+    }
+    
+    func updateInterfaceAfterGuess(){
+        guessLetterField.resignFirstResponder()
+        guessLetterField.text = ""
+    }
+    
+    func formatWordField() {
+        var revealedWord = ""
+        guessedLetters += guessLetterField.text!
+        
+        for letter in wordGuess {
+            if guessedLetters.contains(letter) {
+                revealedWord = revealedWord + " \(letter)"
+            } else {
+                revealedWord += " _"
+            }
+        }
+        revealedWord.removeFirst()
+        userGuessLabel.text = revealedWord
+    }
+    
+    func letterGuessed() {
+        formatWordField()
+        guessCount += 1
+        guessesremained = guessesremained - 1
+        let currentLetterGuessed = guessLetterField.text!
+        let revealedWord = userGuessLabel.text!
+        if guessesremained == 0 {
+            playAgainButton.isHidden = false
+            guessLetterField.isEnabled = false
+            guessLetterButton.isEnabled = false
+            guessCountLabel.text = "You have used all the available guesses, Please start again"
+            wordsMissed += 1
+            updateCount()
+            updateImages()
+        } else if !revealedWord.contains("_") {
+            playAgainButton.isHidden = false
+            guessLetterField.isEnabled = false
+            guessLetterButton.isEnabled = false
+            guessCountLabel.text = "You won! It took you \(guessCount) attempts to guess the word!"
+            wordsGuessed += 1
+            updateCount()
+            updateImages()
+        } else {
+            let guess = ( guessCount == 1 ? "Guess" : "Guesses")
+            guessCountLabel.text = "You have made \(guessCount) \(guess)"
+        }
+        if (wordsGuessed + wordsMissed) == arr.count {
+            guessCountLabel.text = "Congratulations, You are done, Please start over again ?"
+            updateImages()
         }
     }
+    
+    
     
 }
 
