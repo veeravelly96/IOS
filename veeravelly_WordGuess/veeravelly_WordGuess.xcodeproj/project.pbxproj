@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F50959E27F60C100020C023 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F50959D27F60C100020C023 /* AppDelegate.swift */; };
+		3F5095A027F60C100020C023 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F50959F27F60C100020C023 /* SceneDelegate.swift */; };
+		3F5095A227F60C100020C023 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5095A127F60C100020C023 /* ViewController.swift */; };
+		3F5095A527F60C100020C023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5095A327F60C100020C023 /* Main.storyboard */; };
+		3F5095A727F60C110020C023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F5095A627F60C110020C023 /* Assets.xcassets */; };
+		3F5095AA27F60C110020C023 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5095A827F60C110020C023 /* LaunchScreen.storyboard */; };
+		3F5095B527F60C110020C023 /* veeravelly_WordGuessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5095B427F60C110020C023 /* veeravelly_WordGuessTests.swift */; };
+		3F5095BF27F60C110020C023 /* veeravelly_WordGuessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5095BE27F60C110020C023 /* veeravelly_WordGuessUITests.swift */; };
+		3F5095C127F60C110020C023 /* veeravelly_WordGuessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5095C027F60C110020C023 /* veeravelly_WordGuessUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F5095B127F60C110020C023 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F50959227F60C100020C023 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F50959927F60C100020C023;
+			remoteInfo = veeravelly_WordGuess;
+		};
+		3F5095BB27F60C110020C023 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F50959227F60C100020C023 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F50959927F60C100020C023;
+			remoteInfo = veeravelly_WordGuess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F50959A27F60C100020C023 /* veeravelly_WordGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = veeravelly_WordGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F50959D27F60C100020C023 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F50959F27F60C100020C023 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F5095A127F60C100020C023 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F5095A427F60C100020C023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F5095A627F60C110020C023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F5095A927F60C110020C023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F5095AB27F60C110020C023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F5095B027F60C110020C023 /* veeravelly_WordGuessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = veeravelly_WordGuessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F5095B427F60C110020C023 /* veeravelly_WordGuessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veeravelly_WordGuessTests.swift; sourceTree = "<group>"; };
+		3F5095BA27F60C110020C023 /* veeravelly_WordGuessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = veeravelly_WordGuessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F5095BE27F60C110020C023 /* veeravelly_WordGuessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veeravelly_WordGuessUITests.swift; sourceTree = "<group>"; };
+		3F5095C027F60C110020C023 /* veeravelly_WordGuessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veeravelly_WordGuessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F50959727F60C100020C023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F5095AD27F60C110020C023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F5095B727F60C110020C023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F50959127F60C100020C023 = {
+			isa = PBXGroup;
+			children = (
+				3F50959C27F60C100020C023 /* veeravelly_WordGuess */,
+				3F5095B327F60C110020C023 /* veeravelly_WordGuessTests */,
+				3F5095BD27F60C110020C023 /* veeravelly_WordGuessUITests */,
+				3F50959B27F60C100020C023 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F50959B27F60C100020C023 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F50959A27F60C100020C023 /* veeravelly_WordGuess.app */,
+				3F5095B027F60C110020C023 /* veeravelly_WordGuessTests.xctest */,
+				3F5095BA27F60C110020C023 /* veeravelly_WordGuessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F50959C27F60C100020C023 /* veeravelly_WordGuess */ = {
+			isa = PBXGroup;
+			children = (
+				3F50959D27F60C100020C023 /* AppDelegate.swift */,
+				3F50959F27F60C100020C023 /* SceneDelegate.swift */,
+				3F5095A127F60C100020C023 /* ViewController.swift */,
+				3F5095A327F60C100020C023 /* Main.storyboard */,
+				3F5095A627F60C110020C023 /* Assets.xcassets */,
+				3F5095A827F60C110020C023 /* LaunchScreen.storyboard */,
+				3F5095AB27F60C110020C023 /* Info.plist */,
+			);
+			path = veeravelly_WordGuess;
+			sourceTree = "<group>";
+		};
+		3F5095B327F60C110020C023 /* veeravelly_WordGuessTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F5095B427F60C110020C023 /* veeravelly_WordGuessTests.swift */,
+			);
+			path = veeravelly_WordGuessTests;
+			sourceTree = "<group>";
+		};
+		3F5095BD27F60C110020C023 /* veeravelly_WordGuessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F5095BE27F60C110020C023 /* veeravelly_WordGuessUITests.swift */,
+				3F5095C027F60C110020C023 /* veeravelly_WordGuessUITestsLaunchTests.swift */,
+			);
+			path = veeravelly_WordGuessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F50959927F60C100020C023 /* veeravelly_WordGuess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F5095C427F60C110020C023 /* Build configuration list for PBXNativeTarget "veeravelly_WordGuess" */;
+			buildPhases = (
+				3F50959627F60C100020C023 /* Sources */,
+				3F50959727F60C100020C023 /* Frameworks */,
+				3F50959827F60C100020C023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = veeravelly_WordGuess;
+			productName = veeravelly_WordGuess;
+			productReference = 3F50959A27F60C100020C023 /* veeravelly_WordGuess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F5095AF27F60C110020C023 /* veeravelly_WordGuessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F5095C727F60C110020C023 /* Build configuration list for PBXNativeTarget "veeravelly_WordGuessTests" */;
+			buildPhases = (
+				3F5095AC27F60C110020C023 /* Sources */,
+				3F5095AD27F60C110020C023 /* Frameworks */,
+				3F5095AE27F60C110020C023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F5095B227F60C110020C023 /* PBXTargetDependency */,
+			);
+			name = veeravelly_WordGuessTests;
+			productName = veeravelly_WordGuessTests;
+			productReference = 3F5095B027F60C110020C023 /* veeravelly_WordGuessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F5095B927F60C110020C023 /* veeravelly_WordGuessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F5095CA27F60C110020C023 /* Build configuration list for PBXNativeTarget "veeravelly_WordGuessUITests" */;
+			buildPhases = (
+				3F5095B627F60C110020C023 /* Sources */,
+				3F5095B727F60C110020C023 /* Frameworks */,
+				3F5095B827F60C110020C023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F5095BC27F60C110020C023 /* PBXTargetDependency */,
+			);
+			name = veeravelly_WordGuessUITests;
+			productName = veeravelly_WordGuessUITests;
+			productReference = 3F5095BA27F60C110020C023 /* veeravelly_WordGuessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F50959227F60C100020C023 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3F50959927F60C100020C023 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3F5095AF27F60C110020C023 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3F50959927F60C100020C023;
+					};
+					3F5095B927F60C110020C023 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3F50959927F60C100020C023;
+					};
+				};
+			};
+			buildConfigurationList = 3F50959527F60C100020C023 /* Build configuration list for PBXProject "veeravelly_WordGuess" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F50959127F60C100020C023;
+			productRefGroup = 3F50959B27F60C100020C023 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F50959927F60C100020C023 /* veeravelly_WordGuess */,
+				3F5095AF27F60C110020C023 /* veeravelly_WordGuessTests */,
+				3F5095B927F60C110020C023 /* veeravelly_WordGuessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F50959827F60C100020C023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5095AA27F60C110020C023 /* LaunchScreen.storyboard in Resources */,
+				3F5095A727F60C110020C023 /* Assets.xcassets in Resources */,
+				3F5095A527F60C100020C023 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F5095AE27F60C110020C023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F5095B827F60C110020C023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F50959627F60C100020C023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5095A227F60C100020C023 /* ViewController.swift in Sources */,
+				3F50959E27F60C100020C023 /* AppDelegate.swift in Sources */,
+				3F5095A027F60C100020C023 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F5095AC27F60C110020C023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5095B527F60C110020C023 /* veeravelly_WordGuessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F5095B627F60C110020C023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5095BF27F60C110020C023 /* veeravelly_WordGuessUITests.swift in Sources */,
+				3F5095C127F60C110020C023 /* veeravelly_WordGuessUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F5095B227F60C110020C023 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F50959927F60C100020C023 /* veeravelly_WordGuess */;
+			targetProxy = 3F5095B127F60C110020C023 /* PBXContainerItemProxy */;
+		};
+		3F5095BC27F60C110020C023 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F50959927F60C100020C023 /* veeravelly_WordGuess */;
+			targetProxy = 3F5095BB27F60C110020C023 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F5095A327F60C100020C023 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F5095A427F60C100020C023 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F5095A827F60C110020C023 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F5095A927F60C110020C023 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F5095C227F60C110020C023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F5095C327F60C110020C023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F5095C527F60C110020C023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = veeravelly_WordGuess/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = veeravelly_WordGuess;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.veeravelly-WordGuess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F5095C627F60C110020C023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = veeravelly_WordGuess/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = veeravelly_WordGuess;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.veeravelly-WordGuess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F5095C827F60C110020C023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.veeravelly-WordGuessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/veeravelly_WordGuess.app/veeravelly_WordGuess";
+			};
+			name = Debug;
+		};
+		3F5095C927F60C110020C023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.veeravelly-WordGuessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/veeravelly_WordGuess.app/veeravelly_WordGuess";
+			};
+			name = Release;
+		};
+		3F5095CB27F60C110020C023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.veeravelly-WordGuessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = veeravelly_WordGuess;
+			};
+			name = Debug;
+		};
+		3F5095CC27F60C110020C023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "NWMSU.veeravelly-WordGuessUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = veeravelly_WordGuess;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F50959527F60C100020C023 /* Build configuration list for PBXProject "veeravelly_WordGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F5095C227F60C110020C023 /* Debug */,
+				3F5095C327F60C110020C023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F5095C427F60C110020C023 /* Build configuration list for PBXNativeTarget "veeravelly_WordGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F5095C527F60C110020C023 /* Debug */,
+				3F5095C627F60C110020C023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F5095C727F60C110020C023 /* Build configuration list for PBXNativeTarget "veeravelly_WordGuessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F5095C827F60C110020C023 /* Debug */,
+				3F5095C927F60C110020C023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F5095CA27F60C110020C023 /* Build configuration list for PBXNativeTarget "veeravelly_WordGuessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F5095CB27F60C110020C023 /* Debug */,
+				3F5095CC27F60C110020C023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F50959227F60C100020C023 /* Project object */;
+}
