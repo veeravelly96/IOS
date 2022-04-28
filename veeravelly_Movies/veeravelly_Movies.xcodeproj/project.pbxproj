@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5805B59B281B22130025C471 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5805B59A281B22130025C471 /* AppDelegate.swift */; };
+		5805B59D281B22130025C471 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5805B59C281B22130025C471 /* SceneDelegate.swift */; };
+		5805B59F281B22130025C471 /* GenreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5805B59E281B22130025C471 /* GenreViewController.swift */; };
+		5805B5A2281B22130025C471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5805B5A0281B22130025C471 /* Main.storyboard */; };
+		5805B5A4281B22140025C471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5805B5A3281B22140025C471 /* Assets.xcassets */; };
+		5805B5A7281B22140025C471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5805B5A5281B22140025C471 /* LaunchScreen.storyboard */; };
+		5805B5B2281B22140025C471 /* veeravelly_MoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5805B5B1281B22140025C471 /* veeravelly_MoviesTests.swift */; };
+		5805B5BC281B22140025C471 /* veeravelly_MoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5805B5BB281B22140025C471 /* veeravelly_MoviesUITests.swift */; };
+		5805B5BE281B22140025C471 /* veeravelly_MoviesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5805B5BD281B22140025C471 /* veeravelly_MoviesUITestsLaunchTests.swift */; };
+		5805B5CB281B23220025C471 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5805B5CA281B23220025C471 /* MoviesViewController.swift */; };
+		5805B5CD281B23880025C471 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5805B5CC281B23880025C471 /* MovieCollectionViewCell.swift */; };
+		5805B5CF281B24500025C471 /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5805B5CE281B24500025C471 /* MovieData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5805B5AE281B22140025C471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5805B58F281B22130025C471 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5805B596281B22130025C471;
+			remoteInfo = veeravelly_Movies;
+		};
+		5805B5B8281B22140025C471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5805B58F281B22130025C471 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5805B596281B22130025C471;
+			remoteInfo = veeravelly_Movies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5805B597281B22130025C471 /* veeravelly_Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = veeravelly_Movies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5805B59A281B22130025C471 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5805B59C281B22130025C471 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5805B59E281B22130025C471 /* GenreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreViewController.swift; sourceTree = "<group>"; };
+		5805B5A1281B22130025C471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5805B5A3281B22140025C471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5805B5A6281B22140025C471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5805B5A8281B22140025C471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5805B5AD281B22140025C471 /* veeravelly_MoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = veeravelly_MoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5805B5B1281B22140025C471 /* veeravelly_MoviesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veeravelly_MoviesTests.swift; sourceTree = "<group>"; };
+		5805B5B7281B22140025C471 /* veeravelly_MoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = veeravelly_MoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5805B5BB281B22140025C471 /* veeravelly_MoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veeravelly_MoviesUITests.swift; sourceTree = "<group>"; };
+		5805B5BD281B22140025C471 /* veeravelly_MoviesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veeravelly_MoviesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5805B5CA281B23220025C471 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		5805B5CC281B23880025C471 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		5805B5CE281B24500025C471 /* MovieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5805B594281B22130025C471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5805B5AA281B22140025C471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5805B5B4281B22140025C471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5805B58E281B22130025C471 = {
+			isa = PBXGroup;
+			children = (
+				5805B5CE281B24500025C471 /* MovieData.swift */,
+				5805B599281B22130025C471 /* veeravelly_Movies */,
+				5805B5B0281B22140025C471 /* veeravelly_MoviesTests */,
+				5805B5BA281B22140025C471 /* veeravelly_MoviesUITests */,
+				5805B598281B22130025C471 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5805B598281B22130025C471 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5805B597281B22130025C471 /* veeravelly_Movies.app */,
+				5805B5AD281B22140025C471 /* veeravelly_MoviesTests.xctest */,
+				5805B5B7281B22140025C471 /* veeravelly_MoviesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5805B599281B22130025C471 /* veeravelly_Movies */ = {
+			isa = PBXGroup;
+			children = (
+				5805B59A281B22130025C471 /* AppDelegate.swift */,
+				5805B59C281B22130025C471 /* SceneDelegate.swift */,
+				5805B59E281B22130025C471 /* GenreViewController.swift */,
+				5805B5A0281B22130025C471 /* Main.storyboard */,
+				5805B5A3281B22140025C471 /* Assets.xcassets */,
+				5805B5A5281B22140025C471 /* LaunchScreen.storyboard */,
+				5805B5A8281B22140025C471 /* Info.plist */,
+				5805B5CA281B23220025C471 /* MoviesViewController.swift */,
+				5805B5CC281B23880025C471 /* MovieCollectionViewCell.swift */,
+			);
+			path = veeravelly_Movies;
+			sourceTree = "<group>";
+		};
+		5805B5B0281B22140025C471 /* veeravelly_MoviesTests */ = {
+			isa = PBXGroup;
+			children = (
+				5805B5B1281B22140025C471 /* veeravelly_MoviesTests.swift */,
+			);
+			path = veeravelly_MoviesTests;
+			sourceTree = "<group>";
+		};
+		5805B5BA281B22140025C471 /* veeravelly_MoviesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5805B5BB281B22140025C471 /* veeravelly_MoviesUITests.swift */,
+				5805B5BD281B22140025C471 /* veeravelly_MoviesUITestsLaunchTests.swift */,
+			);
+			path = veeravelly_MoviesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5805B596281B22130025C471 /* veeravelly_Movies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5805B5C1281B22140025C471 /* Build configuration list for PBXNativeTarget "veeravelly_Movies" */;
+			buildPhases = (
+				5805B593281B22130025C471 /* Sources */,
+				5805B594281B22130025C471 /* Frameworks */,
+				5805B595281B22130025C471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = veeravelly_Movies;
+			productName = veeravelly_Movies;
+			productReference = 5805B597281B22130025C471 /* veeravelly_Movies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5805B5AC281B22140025C471 /* veeravelly_MoviesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5805B5C4281B22140025C471 /* Build configuration list for PBXNativeTarget "veeravelly_MoviesTests" */;
+			buildPhases = (
+				5805B5A9281B22140025C471 /* Sources */,
+				5805B5AA281B22140025C471 /* Frameworks */,
+				5805B5AB281B22140025C471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5805B5AF281B22140025C471 /* PBXTargetDependency */,
+			);
+			name = veeravelly_MoviesTests;
+			productName = veeravelly_MoviesTests;
+			productReference = 5805B5AD281B22140025C471 /* veeravelly_MoviesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5805B5B6281B22140025C471 /* veeravelly_MoviesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5805B5C7281B22140025C471 /* Build configuration list for PBXNativeTarget "veeravelly_MoviesUITests" */;
+			buildPhases = (
+				5805B5B3281B22140025C471 /* Sources */,
+				5805B5B4281B22140025C471 /* Frameworks */,
+				5805B5B5281B22140025C471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5805B5B9281B22140025C471 /* PBXTargetDependency */,
+			);
+			name = veeravelly_MoviesUITests;
+			productName = veeravelly_MoviesUITests;
+			productReference = 5805B5B7281B22140025C471 /* veeravelly_MoviesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5805B58F281B22130025C471 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					5805B596281B22130025C471 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					5805B5AC281B22140025C471 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5805B596281B22130025C471;
+					};
+					5805B5B6281B22140025C471 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5805B596281B22130025C471;
+					};
+				};
+			};
+			buildConfigurationList = 5805B592281B22130025C471 /* Build configuration list for PBXProject "veeravelly_Movies" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5805B58E281B22130025C471;
+			productRefGroup = 5805B598281B22130025C471 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5805B596281B22130025C471 /* veeravelly_Movies */,
+				5805B5AC281B22140025C471 /* veeravelly_MoviesTests */,
+				5805B5B6281B22140025C471 /* veeravelly_MoviesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5805B595281B22130025C471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5805B5A7281B22140025C471 /* LaunchScreen.storyboard in Resources */,
+				5805B5A4281B22140025C471 /* Assets.xcassets in Resources */,
+				5805B5A2281B22130025C471 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5805B5AB281B22140025C471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5805B5B5281B22140025C471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5805B593281B22130025C471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5805B5CF281B24500025C471 /* MovieData.swift in Sources */,
+				5805B59F281B22130025C471 /* GenreViewController.swift in Sources */,
+				5805B59B281B22130025C471 /* AppDelegate.swift in Sources */,
+				5805B5CD281B23880025C471 /* MovieCollectionViewCell.swift in Sources */,
+				5805B59D281B22130025C471 /* SceneDelegate.swift in Sources */,
+				5805B5CB281B23220025C471 /* MoviesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5805B5A9281B22140025C471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5805B5B2281B22140025C471 /* veeravelly_MoviesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5805B5B3281B22140025C471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5805B5BE281B22140025C471 /* veeravelly_MoviesUITestsLaunchTests.swift in Sources */,
+				5805B5BC281B22140025C471 /* veeravelly_MoviesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5805B5AF281B22140025C471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5805B596281B22130025C471 /* veeravelly_Movies */;
+			targetProxy = 5805B5AE281B22140025C471 /* PBXContainerItemProxy */;
+		};
+		5805B5B9281B22140025C471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5805B596281B22130025C471 /* veeravelly_Movies */;
+			targetProxy = 5805B5B8281B22140025C471 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5805B5A0281B22130025C471 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5805B5A1281B22130025C471 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5805B5A5281B22140025C471 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5805B5A6281B22140025C471 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5805B5BF281B22140025C471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5805B5C0281B22140025C471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5805B5C2281B22140025C471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = veeravelly_Movies/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = veeravelly_Movies;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.veeravelly-Movies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5805B5C3281B22140025C471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = veeravelly_Movies/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = veeravelly_Movies;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.veeravelly-Movies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5805B5C5281B22140025C471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.veeravelly-MoviesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/veeravelly_Movies.app/veeravelly_Movies";
+			};
+			name = Debug;
+		};
+		5805B5C6281B22140025C471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.veeravelly-MoviesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/veeravelly_Movies.app/veeravelly_Movies";
+			};
+			name = Release;
+		};
+		5805B5C8281B22140025C471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.veeravelly-MoviesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = veeravelly_Movies;
+			};
+			name = Debug;
+		};
+		5805B5C9281B22140025C471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.veeravelly-MoviesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = veeravelly_Movies;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5805B592281B22130025C471 /* Build configuration list for PBXProject "veeravelly_Movies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5805B5BF281B22140025C471 /* Debug */,
+				5805B5C0281B22140025C471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5805B5C1281B22140025C471 /* Build configuration list for PBXNativeTarget "veeravelly_Movies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5805B5C2281B22140025C471 /* Debug */,
+				5805B5C3281B22140025C471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5805B5C4281B22140025C471 /* Build configuration list for PBXNativeTarget "veeravelly_MoviesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5805B5C5281B22140025C471 /* Debug */,
+				5805B5C6281B22140025C471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5805B5C7281B22140025C471 /* Build configuration list for PBXNativeTarget "veeravelly_MoviesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5805B5C8281B22140025C471 /* Debug */,
+				5805B5C9281B22140025C471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5805B58F281B22130025C471 /* Project object */;
+}
